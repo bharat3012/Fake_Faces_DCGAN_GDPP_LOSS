@@ -11,6 +11,12 @@ A GAN is comprised of two adversarial networks, a discriminator and a generator.
 * The inputs to the discriminator are 32x32x3 tensor images.
 * The output should be a single value that will indicate whether a given image is real or fake.
 
+
+# Extra Loss: GDPP: Generator  Determinantal Point Processes Loss [here]
+(https://arxiv.org/abs/1812.00068).
+![i](gdpp.png)
+
+
 Convolutional Layers | Input Dimension | Output Dimension |  Activation Fucntion | Batch Normalization
 ------ | ----- | ------ |  ------------------- | ------
 layer 1 | 3 | 64 | leaky relu | False
