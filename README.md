@@ -36,6 +36,7 @@ Layer 3 | 128 | 64 | relu | True
 Layer 4 | 64 | 3 | relu | False
 ## Other Parameters
 * **Epochs** = 40
+
 * **Optimizer** = Adam
 * **Z size** = 100
 * **Weight Inititalization**
@@ -44,3 +45,6 @@ Layer 4 | 64 | 3 | relu | False
 ## Results
 The dataset is biased; it is made of "celebrity" faces that are mostly white. After training the dataset over 40 epochs, I got the following result.
 ![Screenshot from 2019-09-07 21-28-21](https://user-images.githubusercontent.com/42621149/64477229-8a890780-d1b6-11e9-9ccf-d560e768c1ae.png)
+
+# Futher Verified on CIFAR 10 datset and compared with normal DCGAN.
+![i](gd2.png)
