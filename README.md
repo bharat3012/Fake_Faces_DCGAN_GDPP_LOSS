@@ -1,7 +1,7 @@
 # Fake_Faces_DCGAN_GDPP_LOSS
 
 In this project, I defined and trained a DCGAN model with extra GDPP Loss on a dataset of faces. The goal was to get a generator network to generate new images of faces that look as realistic as possible!
-## Dataset Images
+## Dataset
 The CelebA dataset contains over 200,000 celebrity images with annotations. Since you're going to be generating faces, you won't need the annotations, you'll only need the images. Note that these are color images with 3 color channels (RGB)#RGB_Images) each. You can download the CelebA dataset by clicking [here](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html).
 ![i](https://user-images.githubusercontent.com/42621149/64477310-97f2c180-d1b7-11e9-9fbf-e619a741e20e.png)
 
@@ -14,6 +14,8 @@ A GAN is comprised of two adversarial networks, a discriminator and a generator.
 
 # Extra Loss: GDPP: Generator  Determinantal Point Processes Loss [here]
 (https://arxiv.org/abs/1812.00068).
+
+DPP is an elegant probabilistic measure used to model negative correlations within a subset and hence quantify its diversity. 
 ![i](gdpp.png)
 
 
